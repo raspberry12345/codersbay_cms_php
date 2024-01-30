@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(184, 184, 184);
+    width: 100%;
+    
+}
+header{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    background-color: var(--bs-blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+
+nav{
+    background-color: var(--bs-blue);
+    padding: none;
+}
+.mb{
+    margin-bottom: 0 !important;
+}
+form{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    
+}
+h6{
+    text-align: center;
+}
+
+#formUserClients{
+    width: 30%;
+    background-color: white;
+    padding: 2rem 4rem;
+}
+#ändernBtn{
+    margin-top: -0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/* #editForm{
+    width: 100%;
+    background-color: white;
+} */
